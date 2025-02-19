@@ -1,0 +1,546 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: black;
+}
+
+/* Hero Image Section */
+
+.hero-image
+{
+    width: 100%;
+    height: 700px;
+
+    background-image: url("Image/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position: relative;
+}
+
+.header
+{
+    width: 85vw;
+    height: 92px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 40px;
+}
+
+.logo img
+{
+    width: 148px;
+    height: 40px;
+
+    position: relative;
+    z-index: 10;
+}
+
+.two-buttons
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    position: relative;
+    z-index: 10;
+}
+
+.translate
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+
+    background-color: rgba(0, 0, 0, 0.589);
+    border: none;
+    border-radius: 4px;
+    
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    padding: 6px 8px;
+    outline: .1px solid rgba(255, 255, 255, 0.68);
+    cursor: pointer;
+}
+
+.sign-in
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+    background-color: red;
+
+    line-height: 20px;
+    padding: 6px 15px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.black
+{
+    width: 100%;
+    height: 700px;
+
+    background-color: black;
+    opacity: 0.65;
+
+    position: absolute;
+    top: 0;
+}
+
+.home-preview
+{
+
+    width: 800px;
+    /* height: 235px; */
+
+    margin: auto;
+    color: white;
+
+    position: relative;
+    top:130px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.heading
+{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+
+    padding: 0px 100px;
+}
+
+.price
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.decision
+{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.insert-field
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 16px;
+}
+
+.input-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 15px;
+}
+
+.input-field
+{
+    width: 365px;
+    height: 50px;
+
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+
+    background-color: rgba(0, 0, 0, 0.58);
+
+    line-height: 24px;
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: text;
+
+    outline: .1px solid rgba(255, 255, 255, 0.68);
+}
+
+.input-field::placeholder
+{
+    color: rgba(255, 255, 255, 0.68);
+}
+
+.get-started
+{   
+    height: 50px;
+    width: 212px;
+
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+
+    background-color: red;
+
+    line-height: 24px;
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.line
+{
+    width: 100%;
+    height: 1.5px;
+    
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+.block-1
+{
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1px;
+}
+
+.headlines
+{
+    width: 380px;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+
+    gap: 15px;
+}
+
+.headlines-text-1
+{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.headlines-text-2
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+
+    line-height: 25px;
+}
+
+.screen {
+    position: relative;
+    width: 450px;
+    height: auto;
+}
+
+.screen img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+}
+
+.screen video {
+    position: absolute;
+    top: 15%; 
+    left: 13%;
+    width: 82%; 
+    height: 70%;
+    object-fit: contain;
+    object-position: center center; 
+    background-color: black;
+}
+
+.block-2
+{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,2,2,1) 33%, rgba(16,15,74,1) 100%);
+}
+
+.trending,.reason
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+
+    position: absolute;
+    top:45px;
+    left: 125px;
+}
+
+.cards
+{
+    width: 82vw;
+    height: 325px;
+
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+.card
+{
+    width: 220px;
+    height: 300px;  
+}
+
+.card img
+{
+    width: 100%;
+    height: 100%;
+
+    object-fit: fill;
+}
+
+.card img:hover
+{
+   
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.block-3
+{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.reason-card
+{
+    width: 270px;
+    height: 320px;  
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+    position: relative;
+
+    border-radius: 25px;
+    padding: 12px 15px;
+
+}
+
+.reason-card span
+{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+
+    position: relative;
+    top: 10px;
+
+    line-height: 33px;
+}
+
+.reason-card p
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+
+    position: relative;
+    top: 25px;
+
+    text-align: left;
+    width: 195px;
+    line-height: 20px;
+}
+
+.reason-card img
+{
+    width: 75px;
+    height: auto;
+
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+}
+
+.last
+{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,2,2,1) 33%, rgba(16,15,74,1) 100%);
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq
+{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.faq-questions
+{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+
+    width: 85vw;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.question
+{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.question img
+{
+    width: 35px;
+    height: auto;
+}
+
+.question:hover
+{
+    background-color: red;
+    cursor: pointer;
+
+    transform: scale(1.02);
+}
+
+.question img:hover
+{
+    transform: scale(1.5);
+}
+
+/* footer */
+
+footer
+{
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 35px;
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,2,2,1) 33%, rgba(16,15,74,1) 100%);
+
+    position: relative;
+}
+
+.call
+{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+
+    width: 80vw;
+    margin: auto;
+}
+
+.column
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 150px;
+
+    width: 80vw;
+    margin: auto;
+}
+
+.container
+{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: white;
+    text-decoration: underline;
+}
+
+.container div:hover
+{
+    cursor: pointer;
+    background-color: red;
+}
+
+.bottom img
+{
+    width: 50px;
+    position: absolute;
+    right: 25px;
+    bottom: 50px;
+}
