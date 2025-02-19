@@ -1,1 +1,1 @@
-# Netflix (https://abhisheksinhagithub.github.io/Netflix/)
+[Netflix](https://abhisheksinhagithub.github.io/Netflix/)
